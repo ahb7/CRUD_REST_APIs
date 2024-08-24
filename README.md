@@ -6,11 +6,11 @@ In this app, I design CRUD (create, read, update, delete) REST APIs with Python-
 MongoDB will have database of users with fields - id, name, email and password.
 
 The application provides the following REST API endpoints:    
-emspGET /users - Returns a list of all users.  
-emspGET /users/<id> - Returns the user with the specified ID.  
-emspPOST /users - Creates a new user with the specified data.  
-emspPUT /users/<id> - Updates the user with the specified ID with the new data.  
-emspDELETE /users/<id> - Deletes the user with the specified ID.  
+emsp GET /users - Returns a list of all users.  
+emsp GET /users/<id> - Returns the user with the specified ID.  
+emsp POST /users - Creates a new user with the specified data.  
+emsp PUT /users/<id> - Updates the user with the specified ID with the new data.  
+emsp DELETE /users/<id> - Deletes the user with the specified ID.  
 
 1.At first install Anaconda and Postman and MongoDB.
 2.Create local environment:
