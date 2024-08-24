@@ -12,7 +12,7 @@ The application provides the following REST API endpoints:
     &emsp;PUT /users/<id> - Updates the user with the specified ID with the new data.  
     &emsp;DELETE /users/<id> - Deletes the user with the specified ID.  
 
-1. At first install Anaconda and Postman and MongoDB.
+1. At first install Anaconda, Postman and MongoDB.
 2. Create local environment:
    - conda create -n restapi python=3.9 
    - activate restapi 
@@ -23,6 +23,6 @@ The application provides the following REST API endpoints:
 5. Start the application
    - python app.py
 
-Once the application is started, go to localhost on Postman and test the APIs.
+Once the application is started, go to localhost:5000 on Postman and test the APIs.
 To test create and update key value pair should be provided for name, email and password.
 
