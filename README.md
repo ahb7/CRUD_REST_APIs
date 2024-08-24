@@ -14,14 +14,14 @@ The application provides the following REST API endpoints:
 
 1. At first install Anaconda and Postman and MongoDB.
 2. Create local environment:
-   -conda create -n restapi python=3.9 
-   -activate restapi 
+   - conda create -n restapi python=3.9 
+   - activate restapi 
 3. Install dependencies
-   -pip install flask
-   -pip install pymongo
+   - pip install flask
+   - pip install pymongo
 4. Start MongoDB Server
 5. Start the application
-   -python app.py
+   - python app.py
 
 Once the application is started, go to localhost on Postman and test the APIs.
 To test create and update key value pair should be provided for name, email and password.
