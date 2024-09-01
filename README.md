@@ -24,5 +24,5 @@ The application provides the following REST API endpoints:
    - python app.py
 
 Once the application is started, go to localhost:5000 on Postman and test the APIs.
-To test create and update key value pair should be provided for name, email and password.
+To test create and update, key value pair should be provided for name, email and password.
 
